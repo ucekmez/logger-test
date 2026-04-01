@@ -67,9 +67,9 @@ LOGURU_WARNING_COLOR = env("LOGURU_WARNING_COLOR", str, "<black><bold>")
 LOGURU_WARNING_ICON = env("LOGURU_WARNING_ICON", str, "\u26a0\ufe0f")  # Warning
 
 LOGURU_ERROR_NO = env("LOGURU_ERROR_NO", int, 40)
-LOGURU_ERROR_COLOR = env("LOGURU_ERROR_COLOR", str, "<red><bold>")
+LOGURU_ERROR_COLOR = env("LOGURU_ERROR_COLOR", str, "<magenta><bold>")
 LOGURU_ERROR_ICON = env("LOGURU_ERROR_ICON", str, "\u274c")  # Cross Mark
 
 LOGURU_CRITICAL_NO = env("LOGURU_CRITICAL_NO", int, 50)
-LOGURU_CRITICAL_COLOR = env("LOGURU_CRITICAL_COLOR", str, "<RED><bold>")
+LOGURU_CRITICAL_COLOR = env("LOGURU_CRITICAL_COLOR", str, "<magenta><bold>")
 LOGURU_CRITICAL_ICON = env("LOGURU_CRITICAL_ICON", str, "\u2620\ufe0f")  # Skull and Crossbones
