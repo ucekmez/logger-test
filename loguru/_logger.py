@@ -1648,7 +1648,7 @@ class Logger:
         >>> logger.log("CUSTOM", "Logging...")
         15 @ Logging...
         >>> logger.level("WARNING", icon=r"/!\\")
-        Level(name='WARNING', no=30, color='<yellow><bold>', icon='/!\\\\')
+        Level(name='WARNING', no=30, color='<black><bold>', icon='/!\\\\')
         >>> logger.warning("Updated!")
         30 /!\\ Updated!
         """

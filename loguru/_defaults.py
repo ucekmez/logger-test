@@ -63,7 +63,7 @@ LOGURU_SUCCESS_COLOR = env("LOGURU_SUCCESS_COLOR", str, "<green><bold>")
 LOGURU_SUCCESS_ICON = env("LOGURU_SUCCESS_ICON", str, "\u2705")  # White Heavy Check Mark
 
 LOGURU_WARNING_NO = env("LOGURU_WARNING_NO", int, 30)
-LOGURU_WARNING_COLOR = env("LOGURU_WARNING_COLOR", str, "<magenta><bold>")
+LOGURU_WARNING_COLOR = env("LOGURU_WARNING_COLOR", str, "<black><bold>")
 LOGURU_WARNING_ICON = env("LOGURU_WARNING_ICON", str, "\u26a0\ufe0f")  # Warning
 
 LOGURU_ERROR_NO = env("LOGURU_ERROR_NO", int, 40)
