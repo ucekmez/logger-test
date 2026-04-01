@@ -142,7 +142,7 @@ def test_level_exist_builtin(writer):
         logging_logger.error("Error...")
 
     result = writer.read()
-    assert result == "\x1b[31m\x1b[1m40 - ERROR - Error...\x1b[0m\n"
+    assert result == "\x1b[35m\x1b[1m40 - ERROR - Error...\x1b[0m\n"
 
 
 def test_level_exists_custom(writer):
